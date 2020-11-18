@@ -1,0 +1,125 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    width: 100vw;
+    font-family: 'Harmattan', sans-serif;
+    color: #374448;
+}
+
+.container {
+    display: flex;
+    min-width: 90vw;
+    width: 90vw;
+    max-width: 90vw;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.t-c {
+    text-align: center;
+}
+
+.h-100 {
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.w-100 {
+    min-width: 100vw;
+    width: 100vw;
+    max-width: 100vw;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-dir-row {
+    flex-direction: row;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+.bg-light {
+    background: #ecf0f1;
+}
+
+.bg-lighter {
+    background: #ffffff69;
+}
+
+form#login_form fieldset {
+    border: 0.5px solid #ccd0d1;
+    padding: 7rem;
+    transition: 1s;
+}
+
+form#login_form fieldset label {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+form#login_form fieldset legend {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+form#login_form fieldset input[type=text],
+form#login_form fieldset input[type=password] {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    border: 0.5px solid #9ebec2;
+    border-radius: 0.5rem;
+    transition: 1s;
+}
+
+form#login_form fieldset input[type=text]:active,
+form#login_form fieldset input[type=password]:active {
+    border: 1px solid #188894;
+}
+
+form#login_form fieldset input[type=text]:focus,
+form#login_form fieldset input[type=password]:focus {
+    border: 2px solid #188894;
+    outline: unset;
+}
+
+form#login_form fieldset input[type=submit] {
+    min-width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    background: #17daee;
+    border: unset;
+    border: 0.5px solid #188894;
+    color: #374448;
+    border-radius: 1rem;
+}
+
+form#login_form fieldset:focus-within {
+    box-shadow: 0 0 3rem #17daee33;
+}
+
+.container img#logo {
+    max-width: 7vw;
+    margin-bottom: 3rem;
+}
